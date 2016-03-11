@@ -1,22 +1,27 @@
 //
-//  LWBasicMenuController.m
+//  LWLoginController.m
 //  KuaiYIOnline
 //
 //  Created by LiuWei on 3/11/16.
 //  Copyright © 2016 Doctor. All rights reserved.
 //
 
-#import "LWBasicMenuController.h"
+#import "LWLoginController.h"
 
-@interface LWBasicMenuController ()
+@interface LWLoginController ()
 
 @end
 
-@implementation LWBasicMenuController
+@implementation LWLoginController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,13 +32,12 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
-    
+#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
+#warning Incomplete implementation, return the number of rows
     return 0;
 }
 
